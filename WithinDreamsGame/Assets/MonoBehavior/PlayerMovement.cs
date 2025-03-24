@@ -27,8 +27,8 @@ public class Playermovement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         def_walk_speed = walkSpeed; //  change2
         def_run_speed = def_run_speed; // change3
